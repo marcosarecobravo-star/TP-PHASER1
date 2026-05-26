@@ -6,13 +6,13 @@ export default class HelloWorldScene extends Phaser.Scene {
 
   preload() {
     // Cargamos imágenes
-    this.load.image("sky", "public/assets/Cielo.webp");
-    this.load.image("ground", "public/assets/platform.png");
-    this.load.image("player", "public/assets/Ninja.png");
-    this.load.image("square", "public/assets/square.png");
-    this.load.image("triangle", "public/assets/triangle.png");
-    this.load.image("diamond", "public/assets/diamond.png");
-    this.load.image("bad", "public/assets/forma_mala2.png");
+    this.load.image("sky", "Public/assets/Cielo.webp");
+    this.load.image("ground", "Public/assets/platform.png");
+    this.load.image("player", "Public/assets/Ninja.png");
+    this.load.image("square", "Public/assets/square.png");
+    this.load.image("triangle", "Public/assets/triangle.png");
+    this.load.image("diamond", "Public/assets/diamond.png");
+    this.load.image("bad", "Public/assets/forma_mala2.png");
   }
 
   create() {
